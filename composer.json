@@ -8,6 +8,7 @@
       "email": "297984831@qq.com"
     }
   ],
+  "license": "Apache-2.0",
   "type": "library",
   "require": {
     "php": "^8.0",
