@@ -1,7 +1,7 @@
 {
   "name": "dema/shared-queue",
   "description": "Shared queue package for multiple frameworks",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "DeMa",
