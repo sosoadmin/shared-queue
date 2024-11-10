@@ -1,0 +1,28 @@
+{
+  "name": "DeMa/shared-queue",
+  "description": "Shared queue package for multiple frameworks",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "DeMa",
+      "email": "297984831@qq.com"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "predis/predis": "^2.0"
+  },
+  "autoload": {
+  "psr-4": {
+    "SharedQueue\\": "src/"
+  }
+},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SharedQueue\\Providers\\SharedQueueServiceProvider"
+      ]
+    }
+  }
+}
